@@ -1,0 +1,490 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  background-color: rgb(252, 243, 243);
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+.container .header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(9, 9, 27);
+  display: flex;
+  justify-content: space-between;
+}
+.container .header .right-header ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.container .header .right-header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.container .header .left-header ul {
+  margin-top: 10px;
+  list-style: none;
+  margin-right: 100px;
+}
+.container .header .left-header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.container .header .left-header ul li a:hover {
+  color: red;
+}
+.container .header .right-header ul li a:hover {
+  color: red;
+}
+.container .two-header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .two-header .text-header ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .two-header .text-header ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container .two-header .text-header ul li a:hover {
+  color: blue;
+}
+.container .block {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.container .block h4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.container .block img {
+  width: 100%;
+  height: 450px;
+}
+.container .block .block-link {
+  width: 500px;
+  height: auto;
+}
+.container .block .block-link h3 {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.container .block .block-link h4 {
+  width: 100%;
+  position: absolute;
+  margin-top: 120px;
+}
+.container .block .block-link input {
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  margin-top: 380px;
+  margin-left: 420px;
+  text-align: center;
+}
+.container .block .block-link button {
+  width: 80px;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 700px;
+  padding: 8px;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
+.container .block .block-link button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.container .block2 {
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.container .block2 h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.container .block2 p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.container .block2 .icons {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container .block2 .block2-btn {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container .block2 .block2-btn button {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #190083;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.container .block2 .block2-btn button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.container .block3 {
+  width: 100%;
+  position: relative;
+}
+.container .block3 h2 {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  text-align: center;
+}
+.container .block3 .block3-img {
+  width: 100%;
+}
+.container .block3 .content {
+  width: 1050px;
+  height: 200px;
+  display: flex;
+  position: absolute;
+  background-color: #fff;
+  margin-top: 500px;
+  margin-left: 175px;
+}
+.container .block3 .content .block3-img1 {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.container .block3 .content .block3-text {
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+.container .block3 .content .block3-text .block3-p {
+  margin-top: 50px;
+}
+.container .block3 .nuqtalar {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  transform: translateY(-50px);
+}
+.container .block4 {
+  width: 100%;
+  height: auto;
+}
+.container .block4 .block4-text {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container .block4 .block4-text h2 {
+  width: 400px;
+  margin-top: 50px;
+}
+.container .block4 .block4-text p {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: -50px;
+}
+.container .block4 .block4-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container .block4 .block4-box .box1 img {
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+}
+.container .block4 .block4-box .box1 {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container .block4 .block4-box .box1 .box-text {
+  margin-left: 80px;
+  transform: translateY(10px);
+}
+.container .block4 .block4-box .box1 .box-text2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.container .block4 .block4-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .block4 .block4-btn button {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #190083;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.container .block4 .block4-btn button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.container .block5 {
+  width: 100%;
+  height: 300px;
+  background-color: #F3E02B;
+  margin-top: 30px;
+}
+.container .block5 h1 {
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  transform: translateY(30px);
+  margin-bottom: 10px;
+}
+.container .block5 p {
+  width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  transform: translateY(30px);
+}
+.container .block5 button {
+  width: 100px;
+  height: 30px;
+  margin-top: 80px;
+  margin-left: 570px;
+  background-color: #190083;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.container .block5 button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.container .block6 {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.container .block6 h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transform: translateY(100px);
+  margin-bottom: 200px;
+  text-align: center;
+}
+.container .block6 .odam {
+  width: 1100px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+.container .block6 .block6-text {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: #fff;
+  position: absolute;
+  margin-top: 100px;
+  padding: 20px;
+  margin-left: 100px;
+}
+.container .block6 .block6-text img {
+  width: 250px;
+  margin-top: 20px;
+}
+.container .block6 .content2 {
+  width: 1100px;
+  margin: 0 auto;
+}
+.container .block7 {
+  width: 100%;
+  height: auto;
+  background-color: #EBEEF3;
+}
+.container .block7 h2 {
+  margin-top: -50px;
+  margin-bottom: 90px;
+  transform: translateY(80px);
+}
+.container .block7 .block7-text {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+.container .block7 .block7-img1 {
+  width: 150px;
+  height: 50px;
+}
+.container .block7 .block7-img2 {
+  width: 700px;
+  position: relative;
+}
+.container .block7 .block7-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container .block7 .block7-box1 {
+  width: 320px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .block8 {
+  width: 100%;
+  height: 400px;
+  background-color: #0F1035;
+  position: absolute;
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+.container .block8 .block8-text {
+  width: 400px;
+  color: #fff;
+  margin: 0 auto;
+}
+.container .block8 .block8-text h2 {
+  width: 300px;
+  text-align: center;
+  margin-bottom: 80px;
+  transform: translateY(70px);
+}
+.container .block8 .block8-box input {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  margin-top: 100px;
+  margin-left: 420px;
+  text-align: center;
+}
+.container .block8 .block8-box button {
+  width: 80px;
+  position: absolute;
+  margin-left: 650px;
+  padding: 8px;
+  color: #fff;
+  margin-top: 100px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
+.container .block8 .block8-box button:hover {
+  background-color: orchid;
+  cursor: pointer;
+}
+.container .footer {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.container .footer .footer-img {
+  margin-top: 50px;
+}
+.container .footer .footer-img img {
+  width: 200px;
+}
+.container .footer .footer-img .footer-icon {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+}
+.container .footer .footer-text {
+  margin-top: 50px;
+}
+.container .footer .footer-text p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  opacity: 90%;
+  cursor: pointer;
+}
+.container .footer-finish {
+  width: 100%;
+  position: absolute;
+  margin-top: 700px;
+}
+.container .footer-finish hr {
+  width: 75%;
+  height: 3px;
+  background-color: black;
+  margin: 0 auto;
+}
+.container .finish-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container .finish-box .finish-text {
+  width: 500px;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container .finish-box .finish-icon {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .finish-box .finish-icon .finish-img {
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */
